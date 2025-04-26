@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-from app import chat_session  # Import AI chat session
+from app import chat_session
 
 app = Flask(__name__)
 
